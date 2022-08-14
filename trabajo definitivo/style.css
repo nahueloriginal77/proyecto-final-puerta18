@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  transition: all 0.3s ease;
+}
+
+header{
+    background: #753c9d;
+}
+
+.portada img{
+    height: min(100%, 12em);
+    width: min(100%, 12em);
+}
+
+.menu {
+    float: right;
+    margin: 15px 0;
+    cursor: pointer;
+} 
+
+.menu a{
+    font-size: 1.5em;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.contenido{
+    background: url("portada35.jpg") no-repeat;
+    height: 100%;
+    width: 100%;
+}
